@@ -1,0 +1,82 @@
+/* @import url(otrosEstilos.css);
+
+/*
+h2 {color: darkorange;}
+p {color:darkblue}
+
+
+/* Selector universal */
+/* {font-family:fantasy}
+
+/* Selector Tipo o de etiqueta */
+
+/*span {color: darkgreen;}
+
+/* Selectores Class*/
+
+/*span.subrayado { text-decoration: underline;}
+
+/* FUENTES */
+/*
+body {
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    font-variant: small-caps;
+    line-height: 2;
+    
+    /*shorthand o método abreviado */
+    /*font: italic small-caps bold 25px/200% arial,helvetica;
+    
+}
+
+left,center,right,justify
+*/
+p{
+   text-align: center;  
+    text-indent: 20px; 
+    text-transform: uppercase;
+}
+/*
+a{
+    text-decoration: none;
+    text-align: right;
+    text-align-last: right;
+}
+
+
+
+body {
+    background-color: peachpuff;
+    background-image: url(../img/paisaje.jpeg);
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center top;
+    background-attachment:fixed;
+}
+*/
+/*
+body{
+    background-image: url(../img/paisaje.jpeg);
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+*/
+
+#cuadro{
+    width: 500px;
+    height: 500px;
+    background: aliceblue; 
+    overflow: auto;
+    
+    border-width: 4px;
+    border-style: groove;
+    border-color: aqua;
+    padding-top: 20px;
+    
+}

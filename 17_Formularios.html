@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Formularios</title>
+    </head>
+    <body>
+        <form action="#" method="get">
+            Nombre:     <input type="text" name="usuario" size="15" maxlength="30"><br>
+            Password:   <input type="password" name="password" size="15" maxlength="30"> <br>
+            Comentarios: <br>
+            <textarea name="comentarios" cols="20" rows="4"></textarea>
+    
+            <hr>
+            Servicio de Música:<br>
+            <input type="checkbox" name="servicio" value="iTunes">iTunes <br>
+            <input type="checkbox" name="servicio" value="Deezer">Deezer <br>
+            <input type="checkbox" name="servicio" value="Spotify">Spotify <br>
+            
+            <hr>
+            Seleccione su genero: <br>
+            <input type="radio" name="genero" value="Masculino">Masculino<br>
+            <input type="radio" name="genero" value="Femenino">Femenino <br>
+            
+            <hr>
+           <br>
+            <select name="dispositivo">
+                <option value="" selected>Seleccione un dispositivo:</option>
+                <option value="iPod">iPod</option>
+                 <option value="MP3">MP3</option>
+                 <option value="Celular">Celular</option>
+            </select>
+            <hr>
+            <select name="dispositivo" size="4" multiple>
+                <option value="" selected>Seleccione un dispositivo:</option>
+                <option value="iPod">iPod</option>
+                 <option value="MP3">MP3</option>
+                 <option value="Celular">Celular</option>
+            </select>
+            
+            <hr>
+            <label for="edad">Edad</label>
+            <input type="text" name="edad">
+            <hr>
+            
+            <!--Formulario-->    
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <label for="Domicilio">Domicilio:</label>
+                <input type="text" name="Domicilio"><br>
+                <label for="Telefono">Telefono:</label>
+                <input type="text" name="Telefono"><br>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre"><br>
+            </fieldset>
+            <hr>
+            <input type="submit" name="inscripcion" value="Inscripción">
+            
+            
+        </form>
+        
+    </body>
+</html>
